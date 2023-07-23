@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Nunito+Sans:wght@400;500&family=Oxygen:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: 'Fira Sans', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Oxygen', sans-serif; */
+
+body {
+  font-family: "Oxygen", sans-serif;
+  background-color: #f6f8ff;
+}
+
+.mobile-btn {
+  box-shadow: 4px 4px #003e39;
+  border: 1px solid #003e39;
+  padding: 26px;
+}
+
+.open-dropdown {
+  height: 500px;
+  background-color: #f6f8ff;
+  transition: all 0.25s ease-in-out;
+  overflow: hidden;
+  border: 1px solid #003e39;
+}
+
+.close-dropdown {
+  overflow: hidden;
+  height: 0;
+  background-color: white;
+  transition: all 0.25s ease-out;
+}
+
+.title {
+  font-family: "Nunito Sans", sans-serif;
+}
+.line {
+  line-height: 35px;
+}
+
+.home-card {
+  background-color: #f6f8ff;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 6px 6px #003e39;
+  border: 1px solid #003e39;
+  border-radius: 6px;
+}
