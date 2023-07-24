@@ -50,3 +50,26 @@ body {
   border: 1px solid #003e39;
   border-radius: 6px;
 }
+
+/* SECTION TWO */
+.imgContainer {
+  width: 48px;
+  height: 48px;
+  background-color: #f6f8ff;
+  border: 1px solid #013e39;
+  border-radius: 100%;
+  flex: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+  box-shadow: 3px 3px #013e39;
+}
+.img {
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.2s;
+  display: flex;
+}

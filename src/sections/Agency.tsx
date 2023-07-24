@@ -1,8 +1,12 @@
 import Ruul from "../assets/desktop-img.svg";
+import icon1 from "../assets/icon1.svg";
+import icon2 from "../assets/icon2.svg";
+import icon3 from "../assets/icon3.svg";
+import icon4 from "../assets/icon4.svg";
 
 export function Agency() {
   return (
-    <section className="h-screen">
+    <section className="h-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2">
         <div className="hidden lg:block">
           <img src={Ruul} alt="Rull AOR Icon" />
@@ -28,6 +32,65 @@ export function Agency() {
               organizations to work together in a streamlined and compliant
               manner, simplifying cross-border work relations for both parties.
             </p>
+          </div>
+        </div>
+
+        <div className="mx-5 my-10">
+          <div className="flex justify-center items-center gap-6 mb-10">
+            <div className="imgContainer bottom-8 relative">
+              <img className="img" src={icon1} alt="icon" />
+            </div>
+            <div>
+              <h2 className="text-[#013e39] font-bold text-[20px]">
+                Streamlined compliance
+              </h2>
+              <p className="mt-2 text-[#013e39] text-lg leading-8">
+                Remain compliant with local regulations with zero paperwork.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex justify-center items-center gap-6 mb-10">
+            <div className="imgContainer bottom-8 relative">
+              <img className="img" src={icon2} alt="icon" />
+            </div>
+            <div>
+              <h2 className="text-[#013e39] font-bold text-[20px]">
+                Financial enhancement
+              </h2>
+              <p className="mt-2 text-[#013e39] text-lg leading-8">
+                Ease off your payroll burden with a lighter connection protocol.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex justify-center items-center gap-6 mb-10">
+            <div className="imgContainer bottom-8 relative">
+              <img className="img" src={icon3} alt="icon" />
+            </div>
+            <div>
+              <h2 className="text-[#013e39] font-bold text-[20px]">
+                Easy attachment & detachment
+              </h2>
+              <p className="mt-2 text-[#013e39] text-lg leading-8">
+                The agile connection protocol for engaging with your workforce.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex justify-center items-center gap-6 mb-10">
+            <div className="imgContainer bottom-8 relative">
+              <img className="img" src={icon4} alt="icon" />
+            </div>
+            <div>
+              <h2 className="text-[#013e39] font-bold text-[19px]">
+                Cross-border standardization
+              </h2>
+              <p className="mt-2 text-[#013e39] text-lg leading-8">
+                International work arrangements simplified for global
+                businesses.
+              </p>
+            </div>
           </div>
         </div>
       </div>
